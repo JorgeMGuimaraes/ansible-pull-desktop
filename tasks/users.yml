@@ -1,13 +1,9 @@
-<<<<<<< HEAD
--name: create ansible user
-=======
 - name: create ansible user
->>>>>>> dev
   user:
     name  : ansible
     system: yes
 
--name: copy sudoers_ansible
+- name: copy sudoers_ansible
   copy:
     src  : files/sudoers_ansible
     dest : /etc/sudoers.d/ansible
