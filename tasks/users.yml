@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 -name: create ansible user
+=======
+- name: create ansible user
+>>>>>>> dev
   user:
     name  : ansible
     system: yes
