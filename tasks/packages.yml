@@ -1,11 +1,5 @@
----
-- hosts: localhost
-  connection: local
-  become: true
-
-  tasks:
-  - name: install packages
-    pacman:
-      name:
-        - htop
-        - tmux
+- name: install packages
+  pacman:
+    name:
+      - htop
+      - tmux
